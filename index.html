@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html class="no-js lt-ie9 ie8" lang="en"> <![endif]-->
+<!--[if IE 9]> <html class="ie9" lang="en"> <![endif]-->
+<!--[if IE 10]> <html class="ie10" lang="en"> <![endif]-->
+<!--[if (gt IE 10)|!(IE)]> <html lang="en"> <![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Need an MVP or a scalable version 2.0? I build high-quality, tested and scalable web applications.">
+<meta name="author" content="Paul Rugel-Hiatt">
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+<title>Freelance Full Stack Web Application Development with Ruby on Rails and Node</title>
+<link data-turbolinks-track="true" href="assets/public.css" media="all" rel="stylesheet" />
+<script data-turbolinks-track="true" src="assets/public.js"></script>
+<meta content="authenticity_token" name="csrf-param" />
+<meta content="2re0tg/81Xg+GClW+31dDQKsBa9UsyBJlRO4SPaXuh0=" name="csrf-token" />
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-51169916-1', 'paulrugelhiatt.com');
+ga('send', 'pageview');
+
+</script>
+</head>
+
+<body>
+
+<div class="preloader">
+  <div class="spinner">
+    <div class="bounce1"></div>
+    <div class="bounce2"></div>
+    <div class="bounce3"></div>
+  </div>
+</div>
+
+
+<!-- NAVBAR
+================================================== -->
+<div class="navbar-wrapper cbp-af-header">
+  <div class="container">
+
+    <!-- Fixed navbar -->
+    <div class="navbar cbp-af-inner" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <h1><a class="navbar-brand scroll" href="#intro">PRH</a></h1>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav pull-right">
+            <li><a href="#about">About</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#projects">Portfolio</a></li>
+            <li class="hidden-sm"><a href="#team">Skill Set</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a class="external" href="http://blog.paulrugelhiatt.com" target="_blank">Blog</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<!-- Hero Banner
+================================================== -->
+<div id="intro">
+  <div class="item">
+    <div class="container">
+      <div class="row">
+        <div class="carousel-caption-center colour-white">
+          <h2>Hi there, I'm Paul. I build</h2>
+          <h1>Custom Web Applications</h1>
+          <h2>
+            for clients all over the world. 
+          </h2>
+          <p><a class="btn btn-lg btn-primary scroll" href="#about" role="button">Learn more</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- About Section
+================================================== -->
+<section id="about" class="content text-center light">
+
+  <div class="container">
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-12 overlay-text">
+        <br>
+        <h2>Premium Web Development and Consulting</h2>
+      </div><!-- /.col-lg-12 -->
+    </div><!-- /.row -->
+
+    <div class="row">
+      <div class="col-sm-4 text-center overlay-text icons">
+        <div class="icon-wrapper">
+          <i class="fa fa-desktop icon-large"></i>
+        </div>
+        <h3>Custom Applications</h3>
+        <p>
+        Have an idea for a startup? Need to transition from legacy systems? I use the latest 
+        frameworks to deliver high-performance, stable and maintainable apps.
+        </p>
+      </div>
+      <div class="col-sm-4 text-center overlay-text icons">
+        <div class="icon-wrapper">
+          <i class="fa fa-group icon-large"></i>
+        </div>
+        <h3>Team Augmentation</h3>
+        <p>
+        Need to increase your bandwidth? I work with several distributed teams as an on-demand 
+        technical resource.
+        </p>
+      </div>
+      <div class="col-sm-4 text-center overlay-text icons">
+        <div class="icon-wrapper">
+          <i class="fa fa-lightbulb-o icon-large"></i>
+        </div>
+        <h3>Tech Strategy</h3>
+        <p>
+        I've run and worked with numerous startups and young companies. I'll prepare you
+        for success by guiding important strategic and architectural decisions.
+        </p>
+      </div>
+    </div><!-- /.row -->
+  </div>
+
+  <div class="overlay-bg light"></div>
+
+</section>
+
+
+<!-- Featured Sections
+================================================== -->
+<section id="featured1" class="dark with-bg">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-5 overlay-text">
+        <div class="vertical-align">
+          <h2>Zen and the Art of Information Architecture</h2>
+          <p>
+          The process of marrying business requirements with technical implementation requires 
+          <em>hundreds</em> of subjective design decisions.
+          </p>
+          <p>
+          I write beautiful code, but more importantly, I create beautiful application structure. 
+          My applications are fast, efficient, extensible, tested and scalable.
+          </p>          
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="overlay-bg black"></div>
+
+</section>
+
+
+<section id="featured2" class="featured">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-5 text-center">
+        <img alt="Profile Picture" class="margin-top img-responsive img-circle" data-scrollreveal="move 100px and enter from the left after 0.55s" src="images/profile_small-3561821234a424f6bc3ab63189e0bb81.jpg" width="429" />
+      </div>
+      <div class="col-sm-5 col-sm-offset-1">
+        <div class="vertical-align">
+          <h2>ABOUT ME</h2>
+          <p>
+          I started developing web applications in the twilight months of Ruby on Rails 2 while working on a dormroom 
+          startup called Reburse 
+          (NASDAQ: <a id="fake-nasdaq-link" href="#" data-toggle="tooltip" title="I Wish!" data-trigger="click"><b>REB</b></a>) 
+          at UNC Chapel Hill. I have been hooked on early-stage technology ever since, and have served as acting or de facto 
+          CTO for several startups including a few of my own.
+          </p>
+          <div class="about-icons">
+            <a class="icon" href="http://stackoverflow.com/users/949328/hiattp" target="_blank"><i class="fa fa-2x fa-stack-overflow"></i></a>
+            <a class="icon" href="https://github.com/hiattp" target="_blank"><i class="fa fa-2x fa-github"></i></a>
+            <a class="icon" href="http://www.linkedin.com/in/paulhiatt" target="_blank"><i class="fa fa-2x fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+<!-- Testimonials
+================================================== -->
+<section id="testimonials" class="dark">
+
+  <div class="page-header text-center">
+    <h3>Testimonials</h3>
+    <h2>Proven Track Record</h2>
+  </div>
+
+  <div class="container">
+
+    <div class='row'>
+      <div class='col-md-offset-2 col-md-8'>
+        <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+          <!-- Bottom Carousel Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#quote-carousel" data-slide-to="1" class=""></li>
+            <li data-target="#quote-carousel" data-slide-to="2" class=""></li>
+            <li data-target="#quote-carousel" data-slide-to="3" class=""></li>
+            <li data-target="#quote-carousel" data-slide-to="4" class=""></li>
+            <li data-target="#quote-carousel" data-slide-to="5" class=""></li>
+            <li data-target="#quote-carousel" data-slide-to="6" class=""></li>
+            <li data-target="#quote-carousel" data-slide-to="7" class=""></li>
+          </ol>
+
+          <!-- Carousel Slides / Quotes -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <blockquote>
+                <div class="row">
+                  <div class="col-sm-3 text-center">
+                    <div class="review-stars">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                    </div>
+                    <ul class="tech-list">
+                      <li>RAILS 4</li>
+                      <li>HTML5</li>
+                      <li>CSS3</li>
+                      <li>JS</li>
+                      <li>AJAX</li>
+                      <li>JQUERY</li>
+                      <li>D3.JS</li>
+                      <li>GRAPH API</li>
+                      <li>TWITTER API</li>
+                      <li>LINKEDIN API</li>
+                      <li>G+ API</li>
+                      <li>POSTGRESQL</li>
+                    </ul>                    
+
+                  </div>
+                  <div class="col-sm-9">
+                    <p>
+                    "Without a doubt one of the best and most professional freelancers I have worked with. Will certainly be using again :)"
+                    </p>
+                    <small>Simon @ Upshare via <a href="https://www.elance.com/s/hiattp/job-history/?t=1" target="_blank">Elance.com</a></small>
+                  </div>
+                </div>
+              </blockquote>
+
+            </div>
+            <div class="item ">
+              <blockquote>
+                <div class="row">
+                  <div class="col-sm-3 text-center">
+                    <div class="review-stars">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                    </div>
+                    <ul class="tech-list">
+                      <li>HTML5</li>
+                      <li>CSS3</li>
+                      <li>JS</li>
+                      <li>JQUERY</li>
+                      <li>NODE.JS</li>
+                      <li>SOCKET.IO</li>
+                      <li>MONGODB</li>
+                    </ul>                    
+
+                  </div>
+                  <div class="col-sm-9">
+                    <p>
+                    "Exceptional work. Very effective communications with thoughtful, knowledgeable and professional approach. I will use these services again in the future, and would not hesitate to recommend others do the same. The approach taken was of an extremely high standard."
+                    </p>
+                    <small>Sam @ BCDot via <a href="http://www.freelancer.com/u/incipiantech.html" target="_blank">vWorker.com</a></small>
+                  </div>
+                </div>
+              </blockquote>
+
+            </div>
+            <div class="item ">
+              <blockquote>
+                <div class="row">
+                  <div class="col-sm-3 text-center">
+                    <div class="review-stars">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                    </div>
+                    <ul class="tech-list">
+                      <li>RAILS 4</li>
+                      <li>HTML5</li>
+                      <li>CSS3</li>
+                      <li>JS</li>
+                      <li>AJAX</li>
+                      <li>JQUERY</li>
+                      <li>HIGHCHARTS.JS</li>
+                      <li>GARMIN API</li>
+                      <li>BOOTSTRAP</li>
+                      <li>POSTGRESQL</li>
+                    </ul>                    
+
+                  </div>
+                  <div class="col-sm-9">
+                    <p>
+                    "Paul is great. Worked with me to refine the project scope and executed ahead of schedule. Excellent experience working with him. His experience and knowledge has been extremely helpful in our decision and design process."
+                    </p>
+                    <small>Ed @ PaceThis via <a href="http://www.freelancer.com/u/incipiantech.html" target="_blank">Freelancer.com</a></small>
+                  </div>
+                </div>
+              </blockquote>
+
+            </div>
+            <div class="item ">
+              <blockquote>
+                <div class="row">
+                  <div class="col-sm-3 text-center">
+                    <div class="review-stars">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                    </div>
+                    <ul class="tech-list">
+                      <li>HTML5</li>
+                      <li>CSS3</li>
+                      <li>JS</li>
+                      <li>JQUERY</li>
+                    </ul>                    
+
+                  </div>
+                  <div class="col-sm-9">
+                    <p>
+                    "One of the best coders I&#39;ve worked with. I highly recommend."
+                    </p>
+                    <small>Jude @ FuturaGroup via <a href="http://www.freelancer.com/u/incipiantech.html" target="_blank">vWorker.com</a></small>
+                  </div>
+                </div>
+              </blockquote>
+
+            </div>
+            <div class="item ">
+              <blockquote>
+                <div class="row">
+                  <div class="col-sm-3 text-center">
+                    <div class="review-stars">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                    </div>
+                    <ul class="tech-list">
+                      <li>RAILS 4</li>
+                      <li>HEROKU</li>
+                      <li>AWS</li>
+                    </ul>                    
+
+                  </div>
+                  <div class="col-sm-9">
+                    <p>
+                    "Paul was awesome! We needed some help to update a project built in Ruby on Rail and deployed via Heroku to AWS Paul took the time to understand our needs and ensured the deployment was successful We look forward to working with him again!"
+                    </p>
+                    <small>Marc @ Koge via <a href="http://www.guru.com/freelancers/hiattp/reviews" target="_blank">Guru.com</a></small>
+                  </div>
+                </div>
+              </blockquote>
+
+            </div>
+            <div class="item ">
+              <blockquote>
+                <div class="row">
+                  <div class="col-sm-3 text-center">
+                    <div class="review-stars">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                    </div>
+                    <ul class="tech-list">
+                      <li>RAILS 4</li>
+                      <li>PRAWN</li>
+                      <li>MANDRILL API</li>
+                      <li>PDF</li>
+                    </ul>                    
+
+                  </div>
+                  <div class="col-sm-9">
+                    <p>
+                    "Another great job by Paul."
+                    </p>
+                    <small>Rob @ iManifold via <a href="http://www.freelancer.com/u/incipiantech.html" target="_blank">Freelancer.com</a></small>
+                  </div>
+                </div>
+              </blockquote>
+
+            </div>
+            <div class="item ">
+              <blockquote>
+                <div class="row">
+                  <div class="col-sm-3 text-center">
+                    <div class="review-stars">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                    </div>
+                    <ul class="tech-list">
+                      <li>BRANDING</li>
+                      <li>DESIGN</li>
+                      <li>TECH STRATEGY</li>
+                    </ul>                    
+
+                  </div>
+                  <div class="col-sm-9">
+                    <p>
+                    "Paul is an excellent communicator, knows his stuff and goes above and beyond. I will definitely use him again, and gladly recommend him."
+                    </p>
+                    <small>Mark @ Hindsight Now via <a href="http://www.freelancer.com/u/incipiantech.html" target="_blank">vWorker.com</a></small>
+                  </div>
+                </div>
+              </blockquote>
+
+            </div>
+            <div class="item ">
+              <blockquote>
+                <div class="row">
+                  <div class="col-sm-3 text-center">
+                    <div class="review-stars">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                    </div>
+                    <ul class="tech-list">
+                      <li>TECH STRATEGY</li>
+                      <li>EARLY STAGE</li>
+                    </ul>                    
+
+                  </div>
+                  <div class="col-sm-9">
+                    <p>
+                    "Excellent work. Would hire him again in a flash!!!!"
+                    </p>
+                    <small>Alfredo @ Aurum Group via <a href="http://www.freelancer.com/u/incipiantech.html" target="_blank">vWorker.com</a></small>
+                  </div>
+                </div>
+              </blockquote>
+
+            </div>
+          </div>
+          <!-- Carousel Buttons Next/Prev -->
+          <a data-slide="prev" href="#quote-carousel" class="left carousel-control visible-md visible-lg"><i class="fa fa-chevron-left"></i></a>
+          <a data-slide="next" href="#quote-carousel" class="right carousel-control  visible-md visible-lg"><i class="fa fa-chevron-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Portfolio
+================================================== -->
+<section class="section-content section-isotope separator" id="projects">
+
+  <div class="page-header text-center">
+    <h3>Interactive Portfolio</h3>
+    <h2>Past Work and Demos</h2>
+  </div>
+
+  <div class="container">
+    <div id="filters" class="button-group text-center">
+      <button data-filter-value="*" class="active">SHOW ALL</button>
+      <button data-filter-value=".full-stack">FULL STACK</button>
+      <button data-filter-value=".design">DESIGN</button>
+      <button data-filter-value=".other">OTHER</button>
+    </div>
+    <div class="row demo-3">
+      <div id="portfolio" class="js-isotope grid cs-style-1" data-isotope-options='{ "columnWidth": 200, "itemSelector": ".portfolio-item" }'>
+        <div class="col-sm-6 col-md-4 portfolio-item full-stack">
+          <figure>
+            <!-- Thumb Info -->
+            <div class="info">
+              <h3>InfoHounds</h3>
+              <span>Full Stack</span>
+            </div>
+            <!-- Thumbnail -->
+            <img alt="InfoHounds Thumbnail" src="images/infohounds-c2b74bfa8ab2d6cca685b5c7f2ab7f2a.jpg" />
+            <!-- Thumb links -->
+            <figcaption>
+            <a class="preview tooltips popup-gallery" data-desc="As the CTO of InfoHounds I have designed and built our data analytics platform from scratch in Ruby on Rails. You can check out our website at InfoHounds.com, but the real power of our system is all under the hood." data-placement="bottom" data-toggle="tooltip" href="images/infohounds-c2b74bfa8ab2d6cca685b5c7f2ab7f2a.jpg" title="More Info">
+              <i class="fa fa-plus"></i>
+            </a>              <a class="link tooltips" data-placement="bottom" data-toggle="tooltip" href="https://www.infohounds.com" target="_blank" title="Open">
+              <i class="fa fa-external-link"></i>
+            </a>            </figcaption>
+          </figure>
+        </div>
+        <div class="col-sm-6 col-md-4 portfolio-item full-stack">
+          <figure>
+            <!-- Thumb Info -->
+            <div class="info">
+              <h3>Cisco</h3>
+              <span>Full Stack</span>
+            </div>
+            <!-- Thumbnail -->
+            <img alt="Cisco Thumbnail" src="images/cisco-b61fc11d5fd135355b29882c257d8700.jpg" />
+            <!-- Thumb links -->
+            <figcaption>
+            <a class="preview tooltips popup-gallery" data-desc="
+              One of Cisco&#39;s latest web products is an interface that allows users to set up
+              various configurations of Cisco hardware (routers, switches, etc) in a drag-and-drop
+              GUI, then run and interface with real hardware that spins up according to the
+              user&#39;s design. This lets you test (and teach) various configurations without having
+              to purchase the actual devices. I helped build the drag-and-drop GUI, increased
+              their test coverage and built performance optimization tools into the deployment
+              process.
+              " data-placement="bottom" data-toggle="tooltip" href="images/topo-42a150dfb63788f70d5fd9649ff7bfd8.png" title="More Info">
+              <i class="fa fa-plus"></i>
+            </a>              <a class="link tooltips" data-placement="bottom" data-toggle="tooltip" href="http://www.cisco.com/" target="_blank" title="Open">
+              <i class="fa fa-external-link"></i>
+            </a>            </figcaption>
+          </figure>
+        </div>
+        <div class="col-sm-6 col-md-4 portfolio-item full-stack">
+          <figure>
+            <!-- Thumb Info -->
+            <div class="info">
+              <h3>Upshare</h3>
+              <span>Full Stack</span>
+            </div>
+            <!-- Thumbnail -->
+            <img alt="Upshare Thumbnail" src="images/upshare_main-73822dce05ec637b67fc074ad8b08afe.png" />
+            <!-- Thumb links -->
+            <figcaption>
+            <a class="preview tooltips popup-gallery" data-desc="Upshare is an innovative social sharing rewards platform. They process a TON of data for their content partners, so I dropped into their existing team to help them query and display key metrics on a highly interactive dashboard. I also helped them tackle scalability issues in their API and improved their test coverage." data-placement="bottom" data-toggle="tooltip" href="images/upshare_analytics-28a2230b87474d5d78ffb78f141acd4c.png" title="More Info">
+              <i class="fa fa-plus"></i>
+            </a>              <a class="link tooltips" data-placement="bottom" data-toggle="tooltip" href="https://www.upshare.co/" target="_blank" title="Open">
+              <i class="fa fa-external-link"></i>
+            </a>            </figcaption>
+          </figure>
+        </div>
+        <div class="col-sm-6 col-md-4 portfolio-item full-stack">
+          <figure>
+            <!-- Thumb Info -->
+            <div class="info">
+              <h3>PaceThis</h3>
+              <span>Full Stack</span>
+            </div>
+            <!-- Thumbnail -->
+            <img alt="PaceThis Thumbnail" src="images/pacethis-b30c441f6a818073ed8c333661b40d52.jpg" />
+            <!-- Thumb links -->
+            <figcaption>
+            <a class="preview tooltips popup-gallery" data-desc="PaceThis is a running analytics platform that enables serious athletes to track, analyze, and plan their workouts in preparation for events (e.g. marathons). Runners with Garmin GPS watches can import their workouts directly into the site, and are instantly provided with a map of their run as well as charts/graphs analyzing their performance." data-placement="bottom" data-toggle="tooltip" href="images/pacethis_graphs-e987f8cee4b34c0c48b4d3d68408d634.png" title="More Info">
+              <i class="fa fa-plus"></i>
+            </a>
+            <!-- <a class="link tooltips" data&#45;placement="bottom" data&#45;toggle="tooltip" href="http://www.pacethis.com/" target="_blank" title="Open"> -->
+            <!--   <i class="fa fa&#45;external&#45;link"></i> -->
+            <!-- </a> -->
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-sm-6 col-md-4 portfolio-item other">
+          <figure>
+            <!-- Thumb Info -->
+            <div class="info">
+              <h3>Stack Chat</h3>
+              <span>Chrome Extension</span>
+            </div>
+            <!-- Thumbnail -->
+            <img alt="Stack Chat Thumbnail" src="images/stackchat-3433400f529de0622166fc25c53f6d8f.jpg" />
+            <!-- Thumb links -->
+            <figcaption>
+            <a class="preview tooltips popup-gallery" data-desc="I built this fully real-time chat extension as a fun side project. Stack Overflow is the largest community Q&amp;A site for developers, and this extension allows SO users to chat about the questions and answers via a slide-out panel in their Chrome browser. The front end is built entirely in AngularJS." data-placement="bottom" data-toggle="tooltip" href="images/stackchat_full-b6d70166d86471084ba79a35a6170ff2.png" title="More Info">
+              <i class="fa fa-plus"></i>
+            </a>              <a class="link tooltips" data-placement="bottom" data-toggle="tooltip" href="https://chrome.google.com/webstore/detail/stack-chat/ceoaibfheddfhkpaegnnlppghfjoalpi" target="_blank" title="Open">
+              <i class="fa fa-external-link"></i>
+            </a>            </figcaption>
+          </figure>
+        </div>
+        <div class="col-sm-6 col-md-4 portfolio-item design">
+          <figure>
+            <!-- Thumb Info -->
+            <div class="info">
+              <h3>Infographic</h3>
+              <span>Design</span>
+            </div>
+            <!-- Thumbnail -->
+            <img alt="Infographic Thumbnail" src="images/ih_infographic_cropped-6bb95cbed8c9524683ed5936f8d16feb.png" />
+            <!-- Thumb links -->
+            <figcaption>
+            <a class="preview tooltips popup-gallery" data-desc="I designed this infographic for InfoHounds in order to explain the service as part of a broader a marketing campaign effort." data-placement="bottom" data-toggle="tooltip" href="images/ih_infographic-75a5db10da2da31530d4358370f2d20a.png" title="More Info">
+              <i class="fa fa-plus"></i>
+            </a>              <a class="link tooltips" data-placement="bottom" data-toggle="tooltip" href="https://www.infohounds.com/infohounds101.pdf" target="_blank" title="Open">
+              <i class="fa fa-external-link"></i>
+            </a>            </figcaption>
+          </figure>
+        </div>
+        <div class="col-sm-6 col-md-4 portfolio-item full-stack">
+          <figure>
+            <!-- Thumb Info -->
+            <div class="info">
+              <h3>Node Boilerplate</h3>
+              <span>Full Stack/Open Source</span>
+            </div>
+            <!-- Thumbnail -->
+            <img alt="Node Boilerplate Thumbnail" src="images/node_boilerplate-08a8b29bafb1a483eea7c7c3f22bf727.jpg" />
+            <!-- Thumb links -->
+            <figcaption>
+            <a class="preview tooltips popup-gallery" data-desc="Many developers have used this Node boilerplate code as a starting point for their Node.js projects." data-placement="bottom" data-toggle="tooltip" href="images/node_boilerplate-08a8b29bafb1a483eea7c7c3f22bf727.jpg" title="More Info">
+              <i class="fa fa-plus"></i>
+            </a>              <a class="link tooltips" data-placement="bottom" data-toggle="tooltip" href="https://github.com/hiattp/express3-mongodb-bootstrap-demo" target="_blank" title="Open">
+              <i class="fa fa-external-link"></i>
+            </a>            </figcaption>
+          </figure>
+        </div>
+        <div class="col-sm-6 col-md-4 portfolio-item other">
+          <figure>
+            <!-- Thumb Info -->
+            <div class="info">
+              <h3>iManifold</h3>
+              <span>Specialty</span>
+            </div>
+            <!-- Thumbnail -->
+            <img alt="iManifold Thumbnail" src="images/imanifold-840bb459aeacc5a8e1550de70d562d92.jpg" />
+            <!-- Thumb links -->
+            <figcaption>
+            <a class="preview tooltips popup-gallery" data-desc="This client needed a custom server that receives JSON data from a mobile application, converts the information into a nicely designed PDF report, and emails the report to the end customer. The web stack I used is Rails 4, and the PDF generation was accomplished with Prawn. Note: I was not responsible for the design of the template. Image used with permission." data-placement="bottom" data-toggle="tooltip" href="images/imanifold_report-4eb95da43fc09fd79f842b8b830baa70.png" title="More Info">
+              <i class="fa fa-plus"></i>
+            </a>              <a class="link tooltips" data-placement="bottom" data-toggle="tooltip" href="http://imanifold.com/" target="_blank" title="Open">
+              <i class="fa fa-external-link"></i>
+            </a>            </figcaption>
+          </figure>
+        </div>
+        <div class="col-sm-6 col-md-4 portfolio-item design">
+          <figure>
+            <!-- Thumb Info -->
+            <div class="info">
+              <h3>Entasso Marketing</h3>
+              <span>Design</span>
+            </div>
+            <!-- Thumbnail -->
+            <img alt="Entasso Marketing Thumbnail" src="images/entasso_back-cb61cc09381aaf989377c9f9ff3ec3c8.jpg" />
+            <!-- Thumb links -->
+            <figcaption>
+            <a class="preview tooltips popup-gallery" data-desc="I designed this informational handout for Entasso as a widely-distributed promotional material. It was printed on an index card as a two-sided, wrap-around design." data-placement="bottom" data-toggle="tooltip" href="images/entasso_back-cb61cc09381aaf989377c9f9ff3ec3c8.jpg" title="More Info">
+              <i class="fa fa-plus"></i>
+            </a>              <a class="link tooltips" data-placement="bottom" data-toggle="tooltip" href="images/entasso_back-cb61cc09381aaf989377c9f9ff3ec3c8.jpg" target="_blank" title="Open">
+              <i class="fa fa-external-link"></i>
+            </a>            </figcaption>
+          </figure>
+        </div>
+        <div class="col-sm-6 col-md-4 portfolio-item design">
+          <figure>
+            <!-- Thumb Info -->
+            <div class="info">
+              <h3>Entasso Marketing</h3>
+              <span>Design</span>
+            </div>
+            <!-- Thumbnail -->
+            <img alt="Entasso Marketing Thumbnail" src="images/entasso_front-409db924e51cd94a911f9ef379985335.jpg" />
+            <!-- Thumb links -->
+            <figcaption>
+            <a class="preview tooltips popup-gallery" data-desc="I designed this informational handout for Entasso as a widely-distributed promotional material. It was printed on an index card as a two-sided, wrap-around design." data-placement="bottom" data-toggle="tooltip" href="images/entasso_front-409db924e51cd94a911f9ef379985335.jpg" title="More Info">
+              <i class="fa fa-plus"></i>
+            </a>              <a class="link tooltips" data-placement="bottom" data-toggle="tooltip" href="images/entasso_front-409db924e51cd94a911f9ef379985335.jpg" target="_blank" title="Open">
+              <i class="fa fa-external-link"></i>
+            </a>            </figcaption>
+          </figure>
+        </div>
+        <div class="col-sm-6 col-md-4 portfolio-item design">
+          <figure>
+            <!-- Thumb Info -->
+            <div class="info">
+              <h3>Datasheet</h3>
+              <span>Design</span>
+            </div>
+            <!-- Thumbnail -->
+            <img alt="Datasheet Thumbnail" src="images/ih_datasheet_cropped-f8771ebc448a7127e861f0997799d9a9.png" />
+            <!-- Thumb links -->
+            <figcaption>
+            <a class="preview tooltips popup-gallery" data-desc="InfoHounds uses this datasheet to detail their core value proposition to prospective clients." data-placement="bottom" data-toggle="tooltip" href="images/ih_datasheet-a5885d728b15e159b4e6c6cb32431101.png" title="More Info">
+              <i class="fa fa-plus"></i>
+            </a>              <a class="link tooltips" data-placement="bottom" data-toggle="tooltip" href="https://www.infohounds.com/datasheet_SF.pdf" target="_blank" title="Open">
+              <i class="fa fa-external-link"></i>
+            </a>            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+<!-- Team (Converted to Skill Set)
+================================================== -->
+<section id="team" class="dark">
+
+  <div class="page-header text-center">
+    <h3>My Skill Set</h3>
+    <h2>FULL STACK DEVELOPMENT</h2>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div id="owl-example" class="owl-carousel">
+          <div class="item">
+            <img alt="Ruby on Rails" class="display-pic" src="images/rails-bbcdfa15a8a25227b698657edb0d0a5d.jpg" />
+            <h3>Ruby on Rails</h3>
+            <h4>Server Framework</h4>
+            <p>
+            Rails is a popular server-side framework written in Ruby. Over the past few years it has 
+            become a robust, scalable solution for many common web paradigms.
+            </p>
+          </div>
+          <div class="item">
+            <img alt="HTML5" class="display-pic" src="images/html5-fae59f2ac3c870cc57aac42c8f79f666.png" />
+            <h3>HTML(5)</h3>
+            <h4>Frontend Markup</h4>
+            <p>
+            This is the raw content of your web pages (the words, images, etc). HTML has become commoditized 
+            with the rise of outsourced development, but <i>good</i> markup still pays dividends.
+            </p>
+          </div>
+          <div class="item">
+            <img alt="CSS3" class="display-pic" src="images/css3-efa7b3146f0fea5e134ad518007ffa97.jpg" />
+            <h3>CSS(3)</h3>
+            <h4>Frontend Styling</h4>
+            <p>
+            CSS controls how your pages look (think color and position). Want to see what a website looks like 
+            without styling? <a href="/?no_css=true">Click here</a> to see this page without CSS.
+            </p>
+          </div>
+          <div class="item">
+            <img alt="JavaScript" class="display-pic" src="images/js-29a715206551356872adeafc8001661f.png" />
+            <h3>JavaScript</h3>
+            <h4>Interaction</h4>
+            <p>
+            JavaScript is a jack of all trades. It does cool animation and UX enhancement on 
+            the frontend, and occassionally powers neat server-side features like real-time messaging.
+            </p>
+          </div>
+          <div class="item">
+            <img alt="NodeJS" class="display-pic" src="images/nodejs-7a1523831cb4b25c967326d828bc6e1e.png" />
+            <h3>Node.js</h3>
+            <h4>Server Framework</h4>
+            <p>
+            Node is a flexible server-side framework written in JavaScript. While not appropriate for all scenarios, 
+            Node can be an elegant solution for use cases like lightweight JSON APIs and "soft" real-time games.
+            </p>
+          </div>
+          <div class="item">
+            <img alt="AngularJS" class="display-pic" src="images/angularjs-ed921e4f6f3f0b59707d86fbd068067a.jpg" />
+            <h3>AngularJS</h3>
+            <h4>Dynamic Markup</h4>
+            <p>
+            HTML was not originally designed for the interactive, dynamic web applications we use today. 
+            AngularJS extends HTML to facilitate the smooth, seamless UX that contemporary web users expect.
+            </p>
+          </div>
+          <div class="item">
+            <img alt="jQuery" class="display-pic" src="images/jquery-4a6fff5416aa67ed531471ba0226a647.gif" />
+            <h3>jQuery</h3>
+            <h4>DOM Manipulation</h4>
+            <p>
+            Since HTML is not interactive by nature, we can use JavaScript to add cool interactivity without fully 
+            extending it with something like AngularJS. jQuery is a powerful JS library of tools that do just that.
+            </p>
+          </div>
+          <div class="item">
+            <img alt="PostgreSQL" class="display-pic" src="images/postgresql-c317ed349ec095a9cd8bcfb45f75cf4d.png" />
+            <h3>PostgreSQL</h3>
+            <h4>SQL Database</h4>
+            <p>
+            Postgres is a powerful, battle-tested database technology that drives many large-scale implementations. 
+            This is my go-to for a robust relational database.
+            </p>
+          </div>
+          <div class="item">
+            <img alt="MongoDB" class="display-pic" src="images/mongodb-785f856d97bc7cf112d43261627b8dee.jpg" />
+            <h3>MongoDB</h3>
+            <h4>NoSQL Database</h4>
+            <p>
+            Mongo is a leading document-oriented database, and provides a robust solution for semi-structured data 
+            storage. I like the way it interfaces with Node.js, since the entire stack can be written in JS.
+            </p>
+          </div>
+          <div class="item">
+            <img alt="Firebase" class="display-pic" src="images/firebase-99c940c90ae5b98bc2cd3acb417b9f56.jpg" />
+            <h3>Firebase</h3>
+            <h4>Real-time DaaS</h4>
+            <p>
+            Firebase provides a "database as a service" technology with real-time interaction in mind, making it 
+            easy to get up and running with real-time features using pure client-side JS.
+            </p>
+          </div>
+          <div class="item">
+            <img alt="Chrome" class="display-pic" src="images/chrome-f486bc4511a7f4ccaf7945b05768d1c8.jpg" />
+            <h3>Chrome</h3>
+            <h4>Browser Extensions</h4>
+            <p>
+            Browser extensions can be amazingly powerful tools if used and built correctly. They provide a unique 
+            venue both to enhance your user experience and to increase your brand presence.
+            </p>
+          </div>
+          <div class="item">
+            <img alt="Phonegap" class="display-pic" src="images/phonegap-ab16e600160f2b3bf22d59497d00f84e.png" />
+            <h3>PhoneGap</h3>
+            <h4>Mobile Apps</h4>
+            <p>
+            Native mobile development is challenging and expensive because each phone OS requires a different 
+            language and SDK. I use PhoneGap to build cross-platform mobile apps that look and feel native.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+<!-- Call to Action
+================================================== -->
+<section class="cta text-center">
+
+  <div class="container">
+
+    <div class="row">
+      <div class="col-lg-12">
+        <h2>Contact</h2>
+        <p><button class="btn contact-button" type="button" role="button">Get In Touch</button></p>
+        <div class='contact-form'>
+          <form name="sentMessage" id="contactForm">
+            <div class='name'>
+              <input class='form-control first' placeholder='First Name' type='text' id="first_name" autofocus required data-validation-required-message="Please enter your first name">
+              <input class='last' placeholder='Last Name' type='text' id="last_name" required data-validation-required-message="Please enter your last name">
+            </div>
+            <div class='contact'>
+              <input class='form-control email' placeholder='Email Address' type='text' id="email" required data-validation-required-message="Please enter your email">
+            </div>
+            <div class='message'>
+              <textarea class="form-control" placeholder='Your message' id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
+            </div>
+            <div id="success"> </div> <!-- For success/fail messages -->
+            <footer class="submit-button">
+              <button type="submit">Send your message</button>
+            </footer>
+          </form>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- Footer
+================================================== -->
+<footer id="contact" class="footer">
+
+  <div class="container">    
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="col-sm-3 col-md-3">
+          <div class="footer-logo">
+            <!-- <p class="muted">© 2015 </p> -->
+            <p>
+            Paul Rugel-Hiatt<br>
+            1923 Bragg St #140-2353<br>
+            Sanford, NC 27330<br>
+            +1 (908) 442-8875
+            </p>
+            <br>
+          </div>
+        </div>
+        <!-- <div class="col-sm-3 col-md-3">
+          <h3>Product</h3>
+          <ul class="list-unstyled">
+            <li><a href="#">Product for iOS</a></li>
+            <li><a href="#">Product for Android</a></li>
+            <li><a href="#">Product for Windows</a></li>           
+          </ul>
+        </div> -->
+        <!-- <div class="col-sm-6 col-md-6">
+        </div> -->
+        <div class="col-sm-3 col-sm-offset-6 col-md-offset-6 col-md-3 text-right">
+          <a class="icon" href="http://stackoverflow.com/users/949328/hiattp" target="_blank"><i class="fa fa-2x fa-stack-overflow"></i></a>
+          <a class="icon" href="https://github.com/hiattp" target="_blank"><i class="fa fa-2x fa-github"></i></a>
+          <a class="icon" href="http://www.linkedin.com/in/paulhiatt" target="_blank"><i class="fa fa-2x fa-linkedin"></i></a>
+        </div>  
+      </div>
+    </div>
+    <!-- <div class="row">
+      <div class="col-lg-12 text-center">
+        <a class="icon" href="http://stackoverflow.com/users/949328/hiattp" target="_blank"><i class="fa fa-stack-overflow"></i></a>
+        <a class="icon" href="https://github.com/hiattp" target="_blank"><i class="fa fa-github"></i></a>
+        <a class="icon" href="http://www.linkedin.com/in/paulhiatt" target="_blank"><i class="fa fa-linkedin"></i></a>
+      </div>
+    </div> -->
+  </div>
+
+</footer>
+
+
+<script>
+//<![CDATA[
+$(function(){ isotope(); });
+//]]>
+</script>
+</body>
+</html>
